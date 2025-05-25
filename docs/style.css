@@ -27,17 +27,17 @@ a:hover {
   top: 0;
   left:0;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: #FFFFFF;
 }
 
 .main {
   color: #000000;
   padding: 10px;
-  position: fixed;
+  /* position: fixed; */
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  margin-top: 70px;
+  margin-top: 90px;
   width: 95%;
-  background-color: whitesmoke;
+  background-color: #fafafa;
 }

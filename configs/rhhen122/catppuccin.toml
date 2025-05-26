@@ -1,0 +1,10 @@
+theme = "catppuccin_frappe"
+# theme = "catppuccin_latte"
+# theme = "catppuccin_macchiato"
+# theme = "catppuccin_mocha"
+
+[editor]
+mouse = false
+
+[keys.normal]
+a = "insert_mode"

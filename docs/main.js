@@ -8,6 +8,7 @@ if (!link) {
 link.href = 'media/THCR.svg';
 
 const texts = [
+            "Remember to check your email!",
             "Urban Dictionary is banned on my school Wi-Fi",
             "Im not delusional you are!",
             "Stop looking up here! things are better down there!",

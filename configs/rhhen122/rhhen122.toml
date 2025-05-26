@@ -1,8 +1,8 @@
-# theme = "catppuccin_macchiato"
-theme = "ao"
+theme = "catppuccin_macchiato"
+# theme = "ao"
 
 [editor]
-mouse = true
+mouse = false
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,3 +11,8 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+a = "insert_mode"
+
+# This is my personal helix config file!

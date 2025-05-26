@@ -1,0 +1,55 @@
+theme = "rose_pine"
+
+[editor]
+line-number = "relative"
+mouse = false
+scrolloff = 0
+middle-click-paste = true
+scroll-lines = 5
+continue-comments = false
+auto-completion = true
+# auto-completion = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "file-modification-indicator"]
+center = ["file-name", "file-type"]
+right = ["total-line-numbers", "version-control"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.auto-save]
+auto-save.after-delay.timeout = true # Turn off auto save here
+after-delay.timeout = 600000 # Every 10min the file will auto save
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.gutters]
+layout = ["diff", "line-numbers", "spacer"]
+
+[editor.gutters.line-numbers]
+min-width = 1
+
+[keys.normal]
+a = "insert_mode"
+C-s = ":w"
+C-l = ":sh ls"
+C-S-l = ":sh ls -a"
+";" = ":sh cargo install --path ."
+
+[keys.normal.-]
+p = ":sh echo Vim or Helix?"
+m = ":sh make"
+l = ":sh git status"
+k = ":sh git add ."
